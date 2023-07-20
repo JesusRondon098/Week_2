@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var person_1 = require("./person");
+var peersona = new person_1.Person("Jesus", 24, "Rojo");
+console.log(peersona.printName());
+console.log(peersona.yearOfBirth());
+console.log(peersona.getAdress());
+peersona.setAdress("1999");
+console.log(peersona.getAdress());
+console.log(peersona.printAdress());
